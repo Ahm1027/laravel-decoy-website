@@ -48,7 +48,7 @@
                     <h4>Contact</h4>
                     <ul class="footer-contact">
                       <li>
-                        <p>emailhoneypot@cynergizer.com</p>
+                        <p>alizah@paymentcompanion.com</p>
                       </li>
                       <li>
                         <p>United State Of America *12 Street House</p>
