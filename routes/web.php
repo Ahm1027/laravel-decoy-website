@@ -18,6 +18,9 @@ Route::get('/', [WebPagesController::class, 'index']);
 
 Route::get('/login', [WebPagesController::class, 'login']);
 Route::get('/register', [WebPagesController::class, 'register']);
+Route::get('/blogs', [WebPagesController::class, 'blogs']);
+Route::get('/contact', [WebPagesController::class, 'contact']);
+
 Route::get('/logout', [WebPagesController::class, 'logout']);
 
 
