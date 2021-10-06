@@ -37,10 +37,16 @@
                       >Home</a
                     >
                   </li>
+
+                  <li class="nav-item">
+                    <a class="page-scroll" href="{{ url('/offices') }}">Our Offices</a>
+                  </li>
                   
                   <li class="nav-item">
                     <a class="page-scroll" href="{{ url('/contact') }}">Contact</a>
                   </li>
+
+                  <div style="border-left:3px solid #000;height:60px"></div>
 
                   <li class="nav-item">
                     <a class="page-scroll" href="{{ url('/register') }}">Sign Up</a>

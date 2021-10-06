@@ -57,8 +57,8 @@
                   <li class="nav-item">
                     <a
                       class="page-scroll"
-                      href="{{ url('/blogs') }}"
-                      >Blogs</a
+                      href="{{ url('/offices') }}"
+                      >Our Offices</a
                     >
 
                   </li>
