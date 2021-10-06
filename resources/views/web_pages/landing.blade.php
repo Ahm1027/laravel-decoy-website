@@ -24,8 +24,8 @@
         <div class="row align-items-center">
           <div class="col-lg-12">
             <nav class="navbar navbar-expand-lg">
-              <a class="navbar-brand" href="index.html">
-                <img src="{{ asset('img/logo/logo.svg') }}" alt="Logo" />
+              <a class="navbar-brand" href="{{ url('/') }}">
+                <img src="{{ asset('img/logo/logo.svg') }}" alt="Logo"/>
               </a>
               <button
                 class="navbar-toggler"
@@ -49,36 +49,36 @@
                   <li class="nav-item">
                     <a
                       class="page-scroll active"
-                      href="javascript:void(0)"
+                      href="{{ url('/') }}"
                       >Home</a
                     >
-                  </li>
-                  <li class="nav-item">
-                    <a class="page-scroll" href="about.html">About</a>
                   </li>
                   
                   <li class="nav-item">
                     <a
                       class="page-scroll"
-                      href="javascript:void(0)"
-                      >Blogs</a
+                      href="{{ url('/offices') }}"
+                      >Our Offices</a
                     >
 
                   </li>
+
                   <li class="nav-item">
-                    <a class="page-scroll" href="contact.html">Contact</a>
+                    <a class="page-scroll" href="{{ url('/contact') }}">Contact</a>
                   </li>
+
+                  <div style="border-left:3px solid #000;height:60px"></div>
 
                   <li class="nav-item">
                     <a
                       class="page-scroll"
-                      href="javascript:void(0)"
+                      href="{{ url('/login') }}"
                       >Login</a
                     >
                   </li>
 
                   <li class="nav-item">
-                    <a class="page-scroll" href="about.html">Sign Up</a>
+                    <a class="page-scroll" href="{{ url('/register') }}">Sign Up</a>
                   </li>
                   
                 </ul>
@@ -98,7 +98,7 @@
         <div class="row align-items-center">
           <div class="col-xl-5 col-lg-6">
             <div class="hero-content-wrapper">
-              <h1 class="mb-25 wow fadeInDown" data-wow-delay=".2s"></h1>
+              <h1 class="mb-25 wow fadeInDown" data-wow-delay=".2s">Payment Companion</h1>
               <h2 class="mb-25 wow fadeInDown" data-wow-delay=".2s">
                 Your payment exchange partners!
               </h2>
@@ -106,7 +106,7 @@
                 Setup, top of the line, protected payment exchange for your
                 enterprise and stay protected!
               </p>
-              <a href="javascript:void(0)" class="theme-btn">Get Started</a>
+              <a href="{{ url('/login') }}" class="theme-btn">Get Started</a>
             </div>
           </div>
           <div class="col-xl-7 col-lg-6">
@@ -150,13 +150,13 @@
               <img src="{{ asset('img/client-logo/uideck-logo.svg') }}" alt="" />
             </div>
             <div class="client-logo">
+              <img src="{{ asset('img/client-logo/graygrids-logo.png') }}" alt="" />
+            </div>
+            <div class="client-logo">
               <img src="{{ asset('img/client-logo/pagebulb-logo.svg') }}" alt="" />
             </div>
             <div class="client-logo">
               <img src="{{ asset('img/client-logo/lineicons-logo.svg') }}" alt="" />
-            </div>
-            <div class="client-logo">
-              <img src="{{ asset('img/client-logo/graygrids-logo.png') }}" alt="" />
             </div>
             <div class="client-logo">
               <img src="{{ asset('img/client-logo/lineicons-logo.svg') }}" alt="" />

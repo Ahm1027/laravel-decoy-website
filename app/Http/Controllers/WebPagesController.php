@@ -18,6 +18,14 @@ class WebPagesController extends Controller
         return view('web_pages.register');
     }
 
+    public function offices(){
+        return view('web_pages.offices');
+    }
+
+    public function contact(){
+        return view('web_pages.contact');
+    }
+
     public function logout(){
         return 'LOGOUT';
     }
