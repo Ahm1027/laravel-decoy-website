@@ -5,7 +5,7 @@
             <div class="col-lg-12">
               <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                  <img src="{{ asset('img/logo/logo.jpg') }}" alt="Logo" height="70%" width="70%"/>
+                  <img src="{{ asset('img/logo/logo.svg') }}" alt="Logo" height="70%" width="70%"/>
                 </a>
                 <button
                   class="navbar-toggler"

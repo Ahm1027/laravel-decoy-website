@@ -25,7 +25,7 @@
         <div class="row align-items-center">
           <div class="col-xl-5 col-lg-6">
             <div class="hero-content-wrapper">
-              <h1 class="mb-25 wow fadeInDown" data-wow-delay=".2s">Kiwi Pay</h1>
+              <h1 class="mb-25 wow fadeInDown" data-wow-delay=".2s">KiviPay</h1>
               <h2 class="mb-25 wow fadeInDown" data-wow-delay=".2s">
                 Your payment exchange partners!
               </h2>
